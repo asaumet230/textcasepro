@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TextCasePro
 
-## Getting Started
+## 🔠 Transform Your Text Instantly – Online Text Case Converter
 
-First, run the development server:
+TextCasePro is a modern, lightweight, and SEO-friendly web application built with **Next.js 14** and **Tailwind CSS**. It allows you to quickly convert your text to **uppercase, lowercase, capitalized**, or **sentence case**, with live preview and smart validation. Designed for usability, speed, and clarity.
+
+---
+
+## 🌐 Features
+
+- ✅ Convert to **UPPERCASE**, **lowercase**, **Capitalized**, and **After Dot Case**
+- ✅ Live preview of the result
+- ✅ SweetAlert2 validations (empty text, only numbers, character limit)
+- ✅ Copy to clipboard with feedback
+- ✅ Responsive and accessible design with Tailwind
+- ✅ Maximum text length control (default: 5000 chars)
+
+---
+
+## 🚀 Tech Stack
+
+- [Next.js 14](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [SweetAlert2](https://sweetalert2.github.io/)
+
+---
+
+## 📦 Installation
 
 ```bash
+git clone https://github.com/your-username/textcasepro.git
+cd textcasepro
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📄 License
 
-To learn more about Next.js, take a look at the following resources:
+MIT © [Andres Saumet Developer]
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🇪🇸 Instrucciones en Español
+## 🔠 Convierte tu texto al instante – Conversor online de mayúsculas y minúsculas
 
-## Deploy on Vercel
+**TextCasePro** es una aplicación web moderna, ligera y optimizada para SEO, desarrollada con **Next.js 14** y **Tailwind CSS**. Te permite transformar texto de forma instantánea a **MAYÚSCULAS**, **minúsculas**, **Capitalizado** o con **Mayúsculas después de punto**, con vista previa en vivo, validaciones inteligentes y diseño responsivo.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌟 Características principales
+
+- ✅ Conversión rápida a: **MAYÚSCULAS**, **minúsculas**, **Capitalizado**, **Mayúsculas tras punto**
+- ✅ Vista previa en tiempo real del resultado
+- ✅ Validaciones con SweetAlert2:
+  - Texto vacío
+  - Texto solo con números
+  - Límite máximo de caracteres (5000)
+- ✅ Botón para copiar el resultado al portapapeles con retroalimentación visual
+- ✅ Diseño moderno, responsivo y accesible con Tailwind CSS
+
+---
+
+## 🚀 Tecnologías utilizadas
+
+- [Next.js 14](https://nextjs.org/) – Framework React para aplicaciones modernas
+- [Tailwind CSS](https://tailwindcss.com/) – Framework de estilos utilitarios
+- [React Icons](https://react-icons.github.io/react-icons/) – Librería de íconos SVG
+- [SweetAlert2](https://sweetalert2.github.io/) – Alertas visuales elegantes
+
+---
+
+## ⚙️ Instalación
+
+Clona el repositorio y ejecuta el servidor localmente:
+
+```bash
+git clone https://github.com/tu-usuario/textcasepro.git
+cd textcasepro
+npm install
+npm run dev
+```
+---
+
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
+
+---

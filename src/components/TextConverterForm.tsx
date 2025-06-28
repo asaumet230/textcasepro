@@ -25,9 +25,9 @@ export const TextConverterForm = () => {
     }
 
     const capitalize = () => {
-
+        
         if (!validateAndConvert(input)) return;
-        setOutput(input.toLowerCase().replace(/(?:^|\s|[\.!?])\s*(\w)/g, (_, c) => c.toUpperCase()));
+        setOutput(input.toLowerCase().replace(/((?:^|\s|[.!?])\s*)(\w)/g, (_, prefix, c) => prefix + c.toUpperCase()));
     }
 
     const afterDot = () => {
@@ -58,7 +58,7 @@ export const TextConverterForm = () => {
             <div className="grid md:grid-cols-2 gap-4 mb-8">
 
                 <textarea
-                    className="w-full px-3 py-8 border rounded-md resize-none h-80 text-sm"
+                    className="w-full px-3 py-8 border border-gray-400 rounded-md resize-none h-80 text-sm"
                     placeholder="Ingresa tu texto aquí..."
                     value={input}
                     onChange={e => setInput(e.target.value)} />
@@ -66,7 +66,7 @@ export const TextConverterForm = () => {
                 <div className="relative w-full">
 
                     <textarea
-                        className="w-full px-3 py-8 border rounded-md resize-none h-80 bg-gray-100 text-sm"
+                        className="w-full px-3 py-8 border border-gray-400 rounded-md resize-none h-80 bg-gray-100 text-sm"
                         value={output}
                         readOnly
                     />

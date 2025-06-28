@@ -1,7 +1,15 @@
 {
-  "name": "text-converter",
-  "version": "0.1.0",
-  "private": true,
+  "name": "text-case-pro",
+  "version": "1.0.0",
+  "description": "TextCasePro is a modern, lightweight, and SEO-friendly web application built with Next.js 14 and Tailwind CSS. It allows you to quickly convert your text to uppercase, lowercase, capitalized, or sentence case, with live preview and smart validation.",
+  "main": "src/page.tsx",
+  "author": "Andres Felipe Saumet <andressaumet@gmail.com> (https://www.andressaumet.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asaumet230/textcasepro.git"
+  },
+  "homepage": "https://www.andressaumet.com",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
