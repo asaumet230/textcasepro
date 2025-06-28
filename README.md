@@ -29,7 +29,7 @@ TextCasePro is a modern, lightweight, and SEO-friendly web application built wit
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/textcasepro.git
+git clone https://github.com/asaumet230/textcasepro.git
 cd textcasepro
 npm install
 npm run dev
@@ -81,7 +81,7 @@ MIT © [Andres Saumet Developer]
 Clona el repositorio y ejecuta el servidor localmente:
 
 ```bash
-git clone https://github.com/tu-usuario/textcasepro.git
+git clone https://github.com/asaumet230/textcasepro.git
 cd textcasepro
 npm install
 npm run dev
