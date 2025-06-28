@@ -46,6 +46,24 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 MIT © [Andres Saumet Developer]
 
 ---
+## 📷 Screenshots
+
+> 
+
+<p align="center">
+  <img src="./public/images/text-converter.webp" alt="TextCasePro Home" width="400" />
+</p>
+
+<p align="center">
+  <img src="./public/images/text-converter-capitalize.webp" alt="TextCasePro Capitalize" width="400" />
+</p>
+
+<p align="center">
+  <img src="./public/images/text-converter-uppercase.webp" alt="TextCasePro Uppercase" width="400" />
+</p>
+
+
+---
 
 ## 🇪🇸 Instrucciones en Español
 ## 🔠 Convierte tu texto al instante – Conversor online de mayúsculas y minúsculas
